@@ -1,12 +1,20 @@
 
 <div class="main">
 <div class="upperbody">
-<img src="../assets/cold.png" *ngIf="temp < 15">
-<img src="../assets/hot.png" *ngIf="temp > 15">
+    <img src="../assets/cold.png" *ngIf="temp < 15">
+    <img src="../assets/hot.png" *ngIf="temp > 15">
+    <div class="weatherData">
+
+        <div>Hyderabad</div>
+        <div class="temp">{{temp}}°C</div>
+
+    </div>
+</div>
+<div class="lowerBody">
+<p>More information</p>
+<div>
 
 </div>
-<div class="lower body">
-
 </div>
 </div>
 
